@@ -6,6 +6,6 @@ input B;
 input S;
 output Y;
 
-assign Y = (A & S) | (B & !S);
+assign Y = (A & S) | (B & !S); // combinational logic
 
 endmodule
